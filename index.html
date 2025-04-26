@@ -8,26 +8,21 @@
 <body>
     <form action="" method="post" autocomplete="off">
    <h1>Cadastro de Usuário</h1>
-   <label>Nome:</label>
-   <input type="text" name="nome">
+   <label for="texto">Nome:</label><br>
+   <input type="text" id="texto" name="texto" autofocus>
    <br>
-
-   <label>Idade:</label>
-   <input type="number" name="idade" min="0" max="80">
+   <label for="idade">Idade:</label><br>
+   <input type="number" id="idade" name="idade" min="0" max="80">
    <br>
-
-   <label>E-mail:</label>
-   <input type="email" name="email">
+   <label for="email">E-mail:</label><br>
+   <input type="email" id="email" name="email">
    <br>
-
-   <label>Senha:</label>
-   <input type="password" name="senha">
+   <label for="senha">Senha:</label><br>
+   <input type="password" id="senha" name="senha">
    <br>
-
-   <label>Sobre você:</label>
-   <textarea name="bio"></textarea>
+   <label for="bio">Sobre você:</label><br>
+   <textarea name="bio" id="bio"></textarea>
    <br>
-
    <button type="submit">Enviar Cadastro</button>
 </form>
 </body>
